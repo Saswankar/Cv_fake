@@ -1,0 +1,36 @@
+body{
+    background-color:#a1e7e7 ;
+    font-family: 'Montserrat',sans-serif;
+}
+hr{
+    border-style: dotted none none;
+    border-color: rgb(59, 204, 214);
+    border-width: 5px;
+    width: 40%;
+}
+h3{
+    color: #16afaf;
+}
+
+h1{
+    color: #158585;
+}
+input,textarea{
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+.btn{
+    border-radius: 5px;
+    border: none;
+    padding: 8px 25px ;
+}
+.btn:hover{
+    background-color: rgb(33, 94, 173);
+    transition: 2s;
+    color: white;
+}
+input, textarea:focus{
+    outline: none;
+}
